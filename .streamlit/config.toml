@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#FFCB05"  # Electric yellow
+backgroundColor = "#3B4CCA"  # Blue
+secondaryBackgroundColor = "#FFDE00"  # Lighter Yellow
+textColor = "#9AB3FF"  # Even lighter blue for readability
+font = "sans serif"

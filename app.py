@@ -9,6 +9,15 @@ model = joblib.load(model_path)
 
 st.title('Pokédex Type Predictor')
 
+# Description of the streamlit app
+st.write('''
+This application predicts the primary Pokémon type based on its stats. 
+Simply input the stats of a Pokémon, and the model will estimate 
+what type the Pokémon most likely belongs to based on the trained model.
+The type prediction is a result of a machine learning model trained 
+using a Random Forest Classifier on historical Pokémon data.
+''')
+
 # Input fields for Pokémon stats
 hp = st.number_input('HP', min_value=1, max_value=255, value=50)
 attack = st.number_input('Attack', min_value=1, max_value=255, value=50)
