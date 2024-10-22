@@ -16,6 +16,9 @@ A machine learning app that predicts a Pokémon's primary type based on its stat
 - **pandas** (Data Handling)
 - **poetry** (Dependency Management)
 
+## Data set
+Download the pokedex.csv data set on Kaggle [here](https://www.kaggle.com/datasets/christofferms/pokemon-with-stats-and-image), then save it in the `data/` folder.
+
 ## Installation & Setup (Replit + Poetry)
 
 1. **Clone the Project on Replit**
