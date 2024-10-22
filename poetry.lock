@@ -962,16 +962,6 @@ test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
 
 [[package]]
-name = "pickle-mixin"
-version = "1.0.2"
-description = "Makes un-pickle-able objects pick-able."
-optional = false
-python-versions = "*"
-files = [
-    {file = "pickle-mixin-1.0.2.tar.gz", hash = "sha256:d4983cd09939f6e402c69ba4f4200f2e6ccdfd39c020f6d1091290d78f17625c"},
-]
-
-[[package]]
 name = "pillow"
 version = "10.4.0"
 description = "Python Imaging Library (Fork)"
@@ -1697,4 +1687,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.12"
-content-hash = "47533eac24f37ee829cae47a5744831c2244979819c6c2493f37a85bd79792f4"
+content-hash = "a458ec0a2caaf34356377dcea51df9de0071f640853403f60b9fff5dc84307b9"
