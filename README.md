@@ -2,6 +2,8 @@
 
 A machine learning app that predicts a Pokémon's primary type based on its stats using a Random Forest model.
 
+![App Screenshot](screenshot.png)
+
 ## Features
 - Predict Pokémon Type 1 using stats like HP, Attack, Defense, etc.
 - Interactive user interface with Streamlit.
@@ -19,9 +21,10 @@ A machine learning app that predicts a Pokémon's primary type based on its stat
 1. **Clone the Project on Replit**
    - Import the repository directly into Replit: `https://github.com/your-username/pokemon-type-predictor.git`
 
+
 2. **Install Dependencies**
-   ```bash
-   poetry install
+```bash
+poetry install
 ```
 
 3. **Train the Model**
@@ -42,7 +45,3 @@ poetry run streamlit run app.py
 ├── scripts/                  # Model training script
 └── pyproject.toml            # Poetry dependencies
 ```
-
-## Usage
-1. Open the Streamlit app in Replit.
-2. Enter the Pokémon stats and click Predict Pokémon Type.
